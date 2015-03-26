@@ -24,8 +24,16 @@ nav
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 20px;
+    font-size: 8;
+	/* above is default font sive, botton is to use viewport sizing for responsive design */
+	font-Size: 5.5vmin;
+	
+	border: 2px solid;
+    border-radius: 25px;
 }
 
+/* links in navigation */
 nav a
 {
     margin: 10px;
