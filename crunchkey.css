@@ -55,9 +55,28 @@ body
 	font-Size: 7.5vmin;
 }
 
+/* Our logo */
+#logo
+{
+	float:left;
+	position: fixed;
+    top: .1em;
+	
+	-webkit-transition: width 2s, height 2s; /* Safari */
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-out;
+}
+
+#logo:hover
+{
+    width: 128px;
+    height: 128px;
+}
+
 h1
 {
 	line-height: 0px;
+	text-shadow: 3px 3px 1px #888888;
 }
 
 #description
