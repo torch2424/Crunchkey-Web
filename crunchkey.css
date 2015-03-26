@@ -25,10 +25,9 @@ nav
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px;
-    font-size: 8;
+    font-size: 8px;
 	/* above is default font sive, botton is to use viewport sizing for responsive design */
 	font-Size: 5.5vmin;
-	
 	border: 2px solid;
     border-radius: 25px;
 }
@@ -37,6 +36,13 @@ nav
 nav a
 {
     margin: 10px;
+    text-decoration: none;
+    color: #000000;
+    
+    animation-duration: 2s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+	-webkit-animation-delay: 1s;
 }
 
 body
@@ -50,7 +56,7 @@ body
 #title
 {
 	font-family: calcFont;
-	font-size: 10;
+	font-size: 10px;
 	/* above is default font sive, botton is to use viewport sizing for responsive design */
 	font-Size: 7.5vmin;
 }
@@ -82,7 +88,7 @@ h1
 
 #description
 {
-	font-size: 3;
+	font-size: 3px;
 	/*vw used to dynamically change font size*/
     font-size: 3.5vmin;
 	text-align: center;
@@ -95,7 +101,7 @@ form
 
 #enterMath
 {
-	font-size: 7;
+	font-size: 7px;
 	font-size: 7vmin;
 }
 
@@ -117,7 +123,7 @@ form
 /*Our answer*/
 #your
 {
-	font-size: 4;
+	font-size: 4px;
 	/*vmin used to dynamically change font size*/
     font-size: 7vmin;
     text-align: center;
@@ -126,7 +132,7 @@ form
 /*Our answer*/
 #answer
 {
-	font-size: 4;
+	font-size: 4px;
 	/*vw used to dynamically change font size*/
     font-size: 7vmin;
     text-align: center;
@@ -135,7 +141,7 @@ form
 /*Footer stuff */
 #key
 {
-	font-size: 2;
+	font-size: 2px;
 	/*vw used to dynamically change font size*/
     font-size: 3vmin;
     text-align: center;
@@ -148,7 +154,7 @@ form
 
 footer
 {
-	font-size: 2;
+	font-size: 2px;
 	/*vw used to dynamically change font size*/
     font-size: 3vmin;
     text-align: center;
