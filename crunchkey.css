@@ -8,12 +8,27 @@
     src: url(CaviarDreams.ttf);
 }
 
-/* The whole html File(Main div)*/
-#mainPopup
+/* The whole content File(Main div)*/
+#wrapper
 {
 	font-family: calcFont;
 	color: #000000;
 	margin:5px;
+}
+
+/* Navigation*/
+
+nav
+{
+	text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav a
+{
+    margin: 10px;
 }
 
 body
