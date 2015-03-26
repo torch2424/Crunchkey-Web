@@ -150,6 +150,7 @@ form
 .keyelement
 {
 	white-space: nowrap;
+	display:inline;
 }
 
 footer
