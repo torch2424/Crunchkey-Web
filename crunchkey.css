@@ -77,6 +77,7 @@ h1
 {
 	line-height: 0px;
 	text-shadow: 3px 3px 1px #888888;
+	text-align: center;
 }
 
 #description
@@ -84,6 +85,12 @@ h1
 	font-size: 3;
 	/*vw used to dynamically change font size*/
     font-size: 3.5vmin;
+	text-align: center;
+}
+
+form
+{
+	text-align: center;
 }
 
 #enterMath
@@ -113,6 +120,7 @@ h1
 	font-size: 4;
 	/*vmin used to dynamically change font size*/
     font-size: 7vmin;
+    text-align: center;
 }
 
 /*Our answer*/
@@ -121,6 +129,7 @@ h1
 	font-size: 4;
 	/*vw used to dynamically change font size*/
     font-size: 7vmin;
+    text-align: center;
 }
 
 /*Footer stuff */

@@ -8,18 +8,19 @@
 <link rel="stylesheet" href="animate.css">
 <link rel="stylesheet" href="btns.min.css">
 
+<title>CrunchKey</title>
 </head>
 
 <!-- Main Div -->
 <!--Using animated class to fade in text -->
 <div id="wrapper" class="animated fadeIn">
-	<body>
 	<!-- Header-->
 <div id = "title">
-<img id = "logo" src="CrunchKey128.png" alt="C" height="64" width="64">
-<h1><center>CrunchKey</center></h1>
+<a href="crunchkey/index.html"><img id = "logo" src="CrunchKey128.png" 
+alt="C" height="64" width="64"></a>
+<h1>CrunchKey</h1>
+<div id = "description">The Instant Number Cruncher</div>
 </div>
-<center><font id = "description">The Instant Number Cruncher</font></center>
 
 <!-- navigation, and its links -->
 <nav>
@@ -33,30 +34,27 @@
 <!-- Input -->
 	<div id = "IO">
 		<form>
-		<center>
-			<font id="enterMath">Enter Math Here:</font>
+			<div id="enterMath">Enter Math Here:</div>
 		<br>
 		<input id = "inputBox" type="text" name="newnote" >
 		<br>
 		<!-- Using the buttons open source -->
 		<a href="#" class="btn btn--m btn--gray-border" id= "clearButton">Clear</a>
-		</center>
 		</form>
 	
 <!-- Output -->
 
-		<center><font id = "your">Your Answer is:</font></center>
-		<center><font id = "answer"></font></center>
+		<div id = "your">Your Answer is:</div>
+		<div id = "answer"></div>
 		<br>
-		<center><font id = "key">Key:
+		<center><div id = "key">Key:
 		<br>
 		<!--Added no wrap so that each element does not get cut off -->
-		<font style="white-space: nowrap;">^ Exponent,</font> <font style="white-space: nowrap;">r Nth Root,</font> <font style="white-space: nowrap;">* Multiplication,</font> 
-		<font style="white-space: nowrap;">/ Division,</font> <font style="white-space: nowrap;">% Remainder(Modulo),</font> <font style="white-space: nowrap;">+ Additon,</font> 
-		<font style="white-space: nowrap;">- Subtraction</font>
-		</font></center>
+		<div style="white-space: nowrap;">^ Exponent,</div> <div style="white-space: nowrap;">r Nth Root,</div> <div style="white-space: nowrap;">* Multiplication,</div> 
+		<div style="white-space: nowrap;">/ Division,</div> <div style="white-space: nowrap;">% Remainder(Modulo),</div> <div style="white-space: nowrap;">+ Additon,</div> 
+		<div style="white-space: nowrap;">- Subtraction</div>
+		</div></center>
 		<br>
-		<center><font id = "notice">(Calculated from left to right, No order of operations, but parentheses are valid)<br></font></center>
+		<center><div id = "notice">(Calculated from left to right, No order of operations, but parentheses are valid)<br></div></center>
 	</div>
-	</body>
 </div>
