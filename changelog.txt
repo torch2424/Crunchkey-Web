@@ -1,0 +1,7 @@
+-v1.0-
+Finished calculations, now successfully does Parantheses and nth roots
+Started adding CSS
+Added background color, Caviar dreams font
+Added responsive design use viewport font
+Key can no longer get cut off within an element
+First Release

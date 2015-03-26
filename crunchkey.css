@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*The font "Caviar dreams" */
+@font-face 
+{
+    font-family: calcFont;
+    src: url(CaviarDreams.ttf);
+}
+
+/* The whole html File(Main div)*/
+#mainPopup
+{
+	font-family: calcFont;
+	color: #000000;
+	margin:5px;
+}
+
+body
+{
+/* setting the ice background, and centering it */
+	background-color: #E8E9EA;
+	margin: 0 auto;
+}
+
+/* Our title*/
+#title
+{
+	font-family: calcFont;
+	font-size: 10;
+	/* above is default font sive, botton is to use viewport sizing for responsive design */
+	font-Size: 7.5vmin;
+}
+
+h1
+{
+	line-height: 0px;
+}
+
+#description
+{
+	font-size: 3;
+	/*vw used to dynamically change font size*/
+    font-size: 3.5vmin;
+}
+
+#enterMath
+{
+	font-size: 7;
+	font-size: 7vmin;
+}
+
+/* Our input box*/
+#inputBox
+{
+	width: 90%;
+	margin: 10px;
+	font-family: calcFont;
+	font-size: 7vmin;
+}
+
+#clearButton
+{
+	font-family: calcFont;
+	font-size: 4vmin;
+}
+
+/*Our answer*/
+#your
+{
+	font-size: 4;
+	/*vmin used to dynamically change font size*/
+    font-size: 7vmin;
+}
+
+/*Our answer*/
+#answer
+{
+	font-size: 4;
+	/*vw used to dynamically change font size*/
+    font-size: 7vmin;
+}
+
+/*Footer stuff */
+#key
+{
+	font-size: 2;
+	/*vw used to dynamically change font size*/
+    font-size: 3vmin;
+}
+
+#notice
+{
+	font-size: 2;
+	/*vw used to dynamically change font size*/
+    font-size: 3vmin;
+}
