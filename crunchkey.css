@@ -13,7 +13,7 @@
 {
 	font-family: calcFont;
 	color: #000000;
-	margin:5px;
+	margin:10px;
 }
 
 /* Navigation*/
@@ -55,7 +55,7 @@ nav a
 
 #IO
 {
-	margin-left: 6vmin;
+	margin-left: 12%;
 }
 
 body
