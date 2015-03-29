@@ -21,7 +21,7 @@
 nav
 {
 	text-align: center;
-    padding: 20px;
+    padding: 3.5vmin;
     font-size: 8px;
 	/* above is default font sive, botton is to use viewport sizing for responsive design */
 	font-Size: 5vmin;
@@ -30,7 +30,6 @@ nav
     display:block;
     float:left;
     margin-top: 10%;
-    width: 12%;
 }
 
 nav ul
