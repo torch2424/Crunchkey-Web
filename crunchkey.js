@@ -256,14 +256,14 @@ function clear()
 	
 	
 	//Fade our our variables
-	$(inputValue).animate
-	({opacity: 0.0}, 500);
-	$(answer).animate
-	({opacity: 0.0}, 500);
-	
-	//Input Box and answer
-	document.getElementById('inputBox').value = "";
-	document.getElementById('answer').innerHTML = "";
+	$(inputValue).add(answer).animate
+	({opacity: 0.0}, 500,
+	function()
+	{
+		//Input Box and answer
+		document.getElementById('inputBox').value = "";
+		document.getElementById('answer').innerHTML = "";
+	});
 	
 	//Fade back in
 	$(inputValue).animate
