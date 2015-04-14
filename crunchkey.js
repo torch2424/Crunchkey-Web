@@ -266,8 +266,6 @@ function clear()
 	});
 	
 	//Fade back in
-	$(inputValue).animate
-	({opacity: 1.0}, 500);
-	$(answer).animate
+	$(inputValue).add(answer).animate
 	({opacity: 1.0}, 500);
 }
