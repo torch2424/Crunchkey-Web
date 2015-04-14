@@ -11,6 +11,9 @@ var operatorsRegex = /[-*xX+/^%rR]/g;
 var numbersRegex = /[.0-9-*xX+/^%rR]/g;
 var priorityRegex = /[-*xX+/^%()rR]/g;
 
+//Our buttons
+var inputBox;
+var clearButton;
 
 //No longer doing order of operations
 //var order = ["^", "*", "/", "+", "-"];
@@ -18,10 +21,10 @@ var priorityRegex = /[-*xX+/^%()rR]/g;
 //JQuery to execute funtion once the html is loaded, so we don't get null
 //HTML document elements
 jQuery(document).ready(function($) {
-	var inputBox = document.getElementById("inputBox");
+	inputBox = document.getElementById("inputBox");
     inputBox.addEventListener("keyup",compute);
     
-    var clearButton = document.getElementById("clearButton");
+    clearButton = document.getElementById("clearButton");
     clearButton.addEventListener("click",clear);
 });
 
@@ -249,6 +252,8 @@ function performMath()
 //function to clear the screen through the clear button
 function clear()
 {
+	//Fade out our values and stuff
+	
 	//Input Box and answer
 	document.getElementById('inputBox').value = "";
 	document.getElementById('answer').innerHTML = "";
