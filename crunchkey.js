@@ -268,4 +268,7 @@ function clear()
 	//Fade back in
 	$(inputValue).add(answer).animate
 	({opacity: 1.0}, 500);
+	
+	//to prevent going back to the top of the page
+	event.preventDefault();
 }
