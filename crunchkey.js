@@ -249,9 +249,23 @@ function performMath()
 //function to clear the screen through the clear button
 function clear()
 {
-	//Fade out our values and stuff
+	//Get our variables
+	var inputBox = document.getElementById("inputBox");
+	var clearButton = document.getElementById("clearButton");
+	
+	//Fade our our variables
+	$(inputBox).animate
+	({opacity: 0.0}, 500);
+	$(clearButton).animate
+	({opacity: 0.0}, 500);
 	
 	//Input Box and answer
 	document.getElementById('inputBox').value = "";
 	document.getElementById('answer').innerHTML = "";
+	
+	//Fade back in
+	$(inputBox).animate
+	({opacity: 1.0}, 500);
+	$(clearButton).animate
+	({opacity: 1.0}, 500);
 }
