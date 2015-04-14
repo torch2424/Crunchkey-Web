@@ -250,13 +250,15 @@ function performMath()
 function clear()
 {
 	//Get our variables
-	var inputBox = document.getElementById("inputBox");
-	var clearButton = document.getElementById("clearButton");
+	var inputValue = document.getElementById("inputBox");
+	var answer = document.getElementById('answer');
+	
+	
 	
 	//Fade our our variables
-	$(inputBox).animate
+	$(inputValue).animate
 	({opacity: 0.0}, 500);
-	$(clearButton).animate
+	$(answer).animate
 	({opacity: 0.0}, 500);
 	
 	//Input Box and answer
@@ -264,8 +266,8 @@ function clear()
 	document.getElementById('answer').innerHTML = "";
 	
 	//Fade back in
-	$(inputBox).animate
+	$(inputValue).animate
 	({opacity: 1.0}, 500);
-	$(clearButton).animate
+	$(answer).animate
 	({opacity: 1.0}, 500);
 }
