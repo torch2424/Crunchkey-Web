@@ -59,17 +59,17 @@ nav a:hover
     color: #000000;
 }
 
-#IO
-{
-	margin-left: 20%;
-  display:inline-block;
-}
-
 body
 {
 /* setting the ice background, and centering it */
 	background-color: #E8E9EA;
 	margin: 0 auto;
+}
+
+#IO
+{
+	margin-left: 25%;
+  display:inline-block;
 }
 
 /* Our title*/
@@ -114,6 +114,14 @@ h1
 	/*vw used to dynamically change font size*/
     font-size: 3.5vmin;
 	text-align: center;
+}
+
+p
+{
+  font-size: 3px;
+	/*vw used to dynamically change font size*/
+  font-size: 2.5vmin;
+  margin-left:5%;
 }
 
 form
