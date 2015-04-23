@@ -116,7 +116,13 @@ h1
 	text-align: center;
 }
 
-#mylinks a
+.center
+{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.center a
 {
     text-decoration: none;
 }
