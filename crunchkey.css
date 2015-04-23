@@ -116,6 +116,11 @@ h1
 	text-align: center;
 }
 
+#mylinks a
+{
+    text-decoration: none;
+}
+
 p
 {
   font-size: 3px;
