@@ -135,6 +135,11 @@ p
   margin-left:5%;
 }
 
+iframe
+{
+  border:0px;
+}
+
 form
 {
 	text-align: center;
