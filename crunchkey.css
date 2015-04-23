@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*The font "Caviar dreams" */
-@font-face 
+@font-face
 {
     font-family: calcFont;
     src: url(CaviarDreams.ttf);
@@ -14,22 +14,23 @@
 	font-family: calcFont;
 	color: #000000;
 	margin:10px;
+  position: relative;
 }
 
 /* Navigation*/
 
 nav
 {
-	text-align: center;
+	  text-align: center;
     padding: 3.5vmin;
     font-size: 8px;
-	/* above is default font sive, botton is to use viewport sizing for responsive design */
-	font-Size: 5vmin;
-	border: 2px solid;
+  	/* above is default font sive, botton is to use viewport sizing for responsive design */
+	  font-Size: 5vmin;
+	  border: 2px solid;
     border-radius: 5.5vmin;
     display:block;
-    float:left;
-    margin-top: 10%;
+    position: absolute;
+    margin-top: 8%;
 }
 
 nav ul
@@ -44,7 +45,7 @@ nav a
 {
     text-decoration: none;
     color: #000000;
-    
+
     animation-duration: 2s;
     animation-delay: 1s;
     -webkit-animation-duration: 2s;
@@ -59,7 +60,7 @@ nav a:hover
 
 #IO
 {
-	float: left;
+	margin-left: 7vmin;
 }
 
 body
@@ -84,7 +85,7 @@ body
 	float:left;
 	position: fixed;
     top: .1em;
-	
+
 	-webkit-transition: width 2s, height 2s; /* Safari */
     transition: width 2s, height 2s;
     transition-timing-function: ease-out;
@@ -101,6 +102,9 @@ h1
 	line-height: 0px;
 	text-shadow: 3px 3px 1px #888888;
 	text-align: center;
+  font-size: 20px;
+	/* above is default font sive, botton is to use viewport sizing for responsive design */
+	font-Size: 13vmin;
 }
 
 #description
@@ -149,10 +153,11 @@ form
 /*Our answer*/
 #answer
 {
-	font-size: 4px;
-	/*vw used to dynamically change font size*/
+	   font-size: 4px;
+	    /*vw used to dynamically change font size*/
     font-size: 7vmin;
     text-align: center;
+
 }
 
 /*Footer stuff */
