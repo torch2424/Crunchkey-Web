@@ -28,8 +28,9 @@ nav
 	  font-Size: 5vmin;
 	  border: 2px solid;
     border-radius: 5.5vmin;
-    display:block;
-    position: absolute;
+    display:inline-block;
+    position: fixed;
+    float: left;
     margin-top: 8%;
 }
 
@@ -60,7 +61,8 @@ nav a:hover
 
 #IO
 {
-	margin-left: 7vmin;
+	margin-left: 20%;
+  display:inline-block;
 }
 
 body
@@ -79,23 +81,22 @@ body
 	font-Size: 7.5vmin;
 }
 
-/* Our logo */
+/* Our logo, no longer using our logo
 #logo
 {
-	float:left;
-	position: fixed;
-    top: .1em;
 
-	-webkit-transition: width 2s, height 2s; /* Safari */
+	-webkit-transition: width 2s, height 2s; /* Safari
     transition: width 2s, height 2s;
     transition-timing-function: ease-out;
 }
+
 
 #logo:hover
 {
     width: 128px;
     height: 128px;
 }
+*/
 
 h1
 {
