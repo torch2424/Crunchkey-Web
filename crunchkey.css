@@ -210,29 +210,31 @@ footer
 
 /* Our mobile designs */
 
-media only screen and (max-width: 768px)
+@media only screen and (max-width: 768px)
 {
 	body
 	{
 		margin: 0;
 	}
 
-	#wrapper
-	{
-		min-width: 0;
-		width: auto;
-	}
-
-	#content
+	#IO
 	{
 		margin-left: 0;
 	}
 
 	nav
 	{
-		float: none;
-		width: auto;
-		padding: 0;
+    text-align: center;
+    padding: 3.5vmin;
+    font-size: 8px;
+  	/* above is default font sive, botton is to use viewport sizing for responsive design */
+	  font-Size: 5vmin;
+	  border: 2px solid;
+    border-radius: 5.5vmin;
+    display:inline-block;
+    position: static;
+    float: left;
+    margin-top: 8%;
 	}
 
 	nav ul
