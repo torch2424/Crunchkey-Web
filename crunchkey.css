@@ -138,8 +138,8 @@ p
 iframe
 {
   border:0px;
-  width: 70%;
-  height: 60%;
+  width: 80vmin;
+  height: 60vmin;
 }
 
 form
