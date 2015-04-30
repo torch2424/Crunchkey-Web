@@ -207,3 +207,122 @@ footer
     font-size: 3vmin;
     text-align: center;
 }
+
+/* Our mobile designs */
+
+media only screen and (max-width: 768px)
+{
+	body
+	{
+		margin: 0;
+	}
+
+	#wrapper
+	{
+		min-width: 0;
+		width: auto;
+	}
+
+	#content
+	{
+		margin-left: 0;
+	}
+
+	nav
+	{
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+
+	nav ul
+	{
+		text-align: center;
+	}
+
+	nav li
+	{
+		display: inline;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: .75em;
+		padding-right: .75em;
+	}
+
+	footer
+	{
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 480px)
+{
+	body
+	{
+		margin: 0;
+	}
+
+	#wrapper
+	{
+		min-width: 0;
+		width: auto;
+		margin: 0;
+	}
+
+	#content
+	{
+		margin: 0;
+		padding-top: .1em;
+		padding-bottom: .1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 90%;
+	}
+
+	h1
+	{
+		margin: 0;
+		font-size: 1.5em;
+		padding-left: .3em;
+	}
+
+	nav ul
+	{
+		padding: 0;
+	}
+
+	nav li
+	{
+		display: block;
+		margin: 0;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+		border-bottom-color: #330000;
+	}
+	nav a
+	{
+		display: block;
+	}
+
+	#content img
+	{
+		float: none;
+		padding: 0;
+		margin: .1em;
+	}
+
+	#content ul
+	{
+		list-style-position: outside;
+	}
+
+	#mobile
+	{
+		display: inline;
+	}
+
+	#desktop
+	{
+		display: none;
+	}
+}
