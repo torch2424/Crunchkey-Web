@@ -138,9 +138,16 @@ p
 iframe
 {
   border:0px;
+  height: 10%
+  width: 20%;
 }
 
 form
+{
+	text-align: center;
+}
+
+#contactHead
 {
 	text-align: center;
 }
@@ -233,8 +240,8 @@ footer
     border-radius: 5.5vmin;
     display:inline-block;
     position: static;
-    float: left;
-    margin-top: 8%;
+    float: none;
+    margin: 1%;
 	}
 
 	nav ul
@@ -271,9 +278,9 @@ footer
 		margin: 0;
 	}
 
-	#content
+	#IO
 	{
-		margin: 0;
+		margin: 0 auto;
 		padding-top: .1em;
 		padding-bottom: .1em;
 		padding-left: 1em;
@@ -281,50 +288,25 @@ footer
 		font-size: 90%;
 	}
 
-	h1
-	{
-		margin: 0;
-		font-size: 1.5em;
-		padding-left: .3em;
-	}
+  nav
+  {
+    text-align: center;
+    padding: 3.5vmin;
+    font-size: 8px;
+    /* above is default font sive, botton is to use viewport sizing for responsive design */
+    font-Size: 5vmin;
+    border: 2px solid;
+    border-radius: 5.5vmin;
+    display:inline-block;
+    position: static;
+    float: none;
+    margin: 1%;
+  }
 
-	nav ul
-	{
-		padding: 0;
-	}
-
-	nav li
-	{
-		display: block;
-		margin: 0;
-		border-bottom-width: 2px;
-		border-bottom-style: solid;
-		border-bottom-color: #330000;
-	}
-	nav a
-	{
-		display: block;
-	}
-
-	#content img
+	#IO img
 	{
 		float: none;
 		padding: 0;
 		margin: .1em;
-	}
-
-	#content ul
-	{
-		list-style-position: outside;
-	}
-
-	#mobile
-	{
-		display: inline;
-	}
-
-	#desktop
-	{
-		display: none;
 	}
 }
